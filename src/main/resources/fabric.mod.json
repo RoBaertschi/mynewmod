@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mynewmod",
+  "version": "${version}",
+
+  "name": "My new Mod",
+  "description": "This is my new Mod",
+    "authors": [
+    "Robin Bärtschi"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mynewmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.robinb.mynewmod.MyNewMod"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
