@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "mynewmod:fabric_item"
+    },
+    "result": "minecraft:charcoal",
+    "experience": 100,
+    "cookingtime": 1
+}

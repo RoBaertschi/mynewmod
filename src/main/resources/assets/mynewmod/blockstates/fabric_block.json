@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "mynewmod:block/fabric_block" }
+    }
+}
