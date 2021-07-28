@@ -16,7 +16,7 @@ public class ToolMaterialFabric implements ToolMaterial{
     @Override
     public float getMiningSpeedMultiplier() {
         // TODO Auto-generated method stub
-        return 15f;
+        return 100f;
     }
 
     @Override

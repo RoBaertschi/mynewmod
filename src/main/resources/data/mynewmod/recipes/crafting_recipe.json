@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "mynewmod:fabric_block"
+    },
+    "result": "mynewmod:fabric_item",
+    "experience": 10,
+    "cookingtime": 200
+}
