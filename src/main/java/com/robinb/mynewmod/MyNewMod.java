@@ -1,5 +1,6 @@
 package com.robinb.mynewmod;
 
+import com.robinb.mynewmod.register.EntchantRegister;
 import com.robinb.mynewmod.register.FuelRegister;
 import com.robinb.mynewmod.register.ModBlocks;
 import com.robinb.mynewmod.register.ModItems;
@@ -31,6 +32,12 @@ public class MyNewMod implements ModInitializer{
 
     public static final ItemGroup MAIN_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "main_group"), () -> new ItemStack(ModItems.FABRIC_ITEM));
 
+    
+    
+    
+    
+    
+    
     private static ConfiguredFeature<?, ?> ORE_FABRIC_BLOCK = Feature.ORE
     .configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, ModBlocks.FABRIC_BLOCK.getDefaultState(), 10))
     .range(new RangeDecoratorConfig(
@@ -61,6 +68,13 @@ public class MyNewMod implements ModInitializer{
         ModItems.register();
         FuelRegister.register();
         ToolRegister.register();
+        EntchantRegister.register();
+        
+        
+        
+        
+        
+        
         RegistryKey<ConfiguredFeature<?, ?>> oreFabricOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
             new Identifier(MOD_ID, "ore_fabric_overworld"));
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreFabricOverworld.getValue(),

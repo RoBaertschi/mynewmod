@@ -6,5 +6,7 @@
     "item.mynewmod.fabric_chestplate": "Fabric Brustplatte",
     "item.mynewmod.fabric_leggins": "Fabric Hose",
     "item.mynewmod.fabric_boots": "Fabric Schuhe",
-    "itemGroup.mynewmod.main_group": "Fabric"
+    "itemGroup.mynewmod.main_group": "Fabric",
+    "mynewmod.fight_item.falvor_text": "§cRight click on a Block \n §eIt will summon a Lightning.....",
+    "enchantment.mynewmod.boom_boom": "Boom Boom"
 }
