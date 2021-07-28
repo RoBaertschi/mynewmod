@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-
+    "mynewmod.mixins.json"
   ],
 
   "depends": {

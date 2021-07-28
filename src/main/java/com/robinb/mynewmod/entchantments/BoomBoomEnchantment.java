@@ -32,12 +32,16 @@ public class BoomBoomEnchantment extends Enchantment {
 		// TODO Auto-generated method stub
 		if(target instanceof LivingEntity) {
 			World world = user.world;
-			
-			TntEntity tnt = EntityType.TNT.create(world);
-			tnt.setFuse(0);
-			tnt.setPosition(target.getPos());
-			
-			world.spawnEntity(tnt);
+
+			for(int i = 0; i < level; i++){
+				TntEntity tnt = EntityType.TNT.create(world);
+				tnt.setFuse(i*10);
+				tnt.setPosition(target.getX(), target.getY(), target.getZ());
+
+				world.spawnEntity(tnt);
+			}
+
+
 		}
 	}
 	@Override
