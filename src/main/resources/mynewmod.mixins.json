@@ -5,7 +5,6 @@
   "package": "com.robinb.mynewmod.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "LivingEntityMixin"
   ],
   "client": [
   ],
