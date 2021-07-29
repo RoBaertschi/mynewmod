@@ -31,14 +31,15 @@ public class BoomBoomEnchantment extends Enchantment {
 	public void onTargetDamaged(LivingEntity user, Entity target, int level) {
 		// TODO Auto-generated method stub
 		if(target instanceof LivingEntity) {
-			World world = user.world;
-			
-			TntEntity tnt = EntityType.TNT.create(world);
-			tnt.setFuse(0);
-			tnt.setPosition(target.getPos());
-			
-			world.spawnEntity(tnt);
-		}
+			for(int i = 0; i < level; i++){
+				World world = user.world;
+
+				TntEntity tnt = EntityType.TNT.create(world);
+				tnt.setFuse(0);
+				tnt.setPosition(target.getPos());
+
+				world.spawnEntity(tnt);
+		}}
 	}
 	@Override
 	public void onUserDamaged(LivingEntity user, Entity attacker, int level) {
