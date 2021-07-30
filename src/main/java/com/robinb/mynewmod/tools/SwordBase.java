@@ -32,6 +32,6 @@ public class SwordBase extends SwordItem {
     }
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new TranslatableText("mynewmod.fight_item.falvor_text"));
+        tooltip.add(new TranslatableText("mynewmod.fabric_sword.falvor_text"));
     }
 }

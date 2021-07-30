@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mynewmod:fabric_item"
+        },
+        {
+            "item": "mynewmod:fabric_item"
+        },
+        {
+            "item": "mynewmod:fabric_item"
+        },
+        {
+            "item": "mynewmod:fabric_item"
+        },
+        {
+            "item": "mynewmod:fabric_item"
+        },
+        {
+            "item": "mynewmod:fabric_item"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "item": "mynewmod:fabric_sword",
+        "count": 1
+    }
+}
